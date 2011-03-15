@@ -32,3 +32,6 @@ gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 # group :development, :test do
 #   gem 'webrat'
 # end
+group :test do
+  gem 'rspec-rails'
+end
