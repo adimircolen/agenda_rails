@@ -1,4 +1,6 @@
 Agenda::Application.routes.draw do
+  resources :phones
+
   resources :contacts
 
   devise_for :users
