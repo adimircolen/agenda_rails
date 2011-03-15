@@ -1,18 +1,19 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '3.0.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
-gem 'haml'
-gem 'rails3-generators'
-gem 'inherited_resources'
+# gem 'haml'
+# gem 'rails3-generators'
+# gem 'inherited_resources'
 gem 'devise'
-gem 'formtastic', '~> 1.1.0'
-gem 'geokit-rails3'
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+# gem 'formtastic', '~> 1.1.0'
+# gem 'geokit-rails3'
 
 
 # Use unicorn as the web server
@@ -34,16 +35,16 @@ gem 'ruby-debug19'
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-group :development, :test do
-  gem 'webrat'
-  gem 'rspec-rails', '~> 2.0.1'
-  gem 'slim_scrooge'
-end
-group :test do
-  gem 'cucumber-rails'
-  gem 'cucumber'
-  gem 'autotest'
-  gem 'autotest-notification'
-  gem 'ZenTest'
-  gem 'launchy'
-end
+# group :development, :test do
+#   gem 'webrat'
+#   gem 'rspec-rails', '~> 2.0.1'
+#   gem 'slim_scrooge'
+# end
+# group :test do
+#   gem 'cucumber-rails'
+#   gem 'cucumber'
+#   gem 'autotest'
+#   gem 'autotest-notification'
+#   gem 'ZenTest'
+#   gem 'launchy'
+# end
