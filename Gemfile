@@ -5,16 +5,7 @@ gem 'rails', '3.0.5'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
-
-# gem 'haml'
-# gem 'rails3-generators'
-# gem 'inherited_resources'
-gem 'devise'
-gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
-# gem 'formtastic', '~> 1.1.0'
-# gem 'geokit-rails3'
-
+gem 'mysql2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -24,7 +15,10 @@ gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
-gem 'ruby-debug19'
+gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'devise'
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
 # Bundle the extra gems:
 # gem 'bj'
@@ -37,14 +31,4 @@ gem 'ruby-debug19'
 # and rake tasks are available in development mode:
 # group :development, :test do
 #   gem 'webrat'
-#   gem 'rspec-rails', '~> 2.0.1'
-#   gem 'slim_scrooge'
-# end
-# group :test do
-#   gem 'cucumber-rails'
-#   gem 'cucumber'
-#   gem 'autotest'
-#   gem 'autotest-notification'
-#   gem 'ZenTest'
-#   gem 'launchy'
 # end
